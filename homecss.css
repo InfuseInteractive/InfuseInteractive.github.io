@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(30, 143, 255, 0); 
+   }
+button {
+       border-radius: 8px;
+       background-color: rgba(30, 143, 255, 0);
+       margin: 10px;
+       padding: 20px;
+       font-size: 30px;
+   }
+button:hover {
+       cursor: pointer;
+       transition: 0.3s;
+       background-color: rgb(155,129,88,255);
+       margin: 10px;
+       padding: 20px;
+       font-size: 30px;
+   }
+body{
+    height: 100vh;
+    background: linear-gradient(#B09D6F,#7a6d4f);
+}
+@font-face{
+    font-family: "HazelnutMilkTeaBold";
+    src: url(Fonts/HazelnutMilkTeaBold.ttf)
+}
+h1{
+    color: rgb(255,255,255,255);
+    font-family: "HazelnutMilkTeaBold";
+    font-size: 100px;
+    text-shadow: -5px 5px #B09D6F;
+}
+h3{
+    
+    
+    color: #B09D6F;
+    font-family: "HazelnutMilkTeaBold";
+    font-size: 50px;
+    text-align:center
+    
+}
